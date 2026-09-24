@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WPQNz7AXL8Ig4oSNEWQT">
+    <mxGraphModel dx="1318" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=26;fontStyle=1;fontColor=#312D2A;" value="Simple OCI VCN Structure — Public and Private Subnets" vertex="1">
+          <mxGeometry height="40" width="760" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="region" parent="1" style="swimlane;html=1;startSize=42;rounded=1;arcSize=10;strokeWidth=3;strokeColor=#C74634;fillColor=#FFF4F0;fontColor=#8B2E20;fontSize=18;fontStyle=1;horizontal=1;" value="OCI Region: India South (Hyderabad)" vertex="1">
+          <mxGeometry height="740" width="1080" x="170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcn" parent="1" style="swimlane;html=1;startSize=40;rounded=1;arcSize=8;strokeWidth=3;dashed=1;strokeColor=#5B5B5B;fillColor=#FFFFFF;fontColor=#312D2A;fontSize=17;fontStyle=1;horizontal=1;" value="VCN: sha-learning-vcn  |  CIDR: 10.0.0.0/16" vertex="1">
+          <mxGeometry height="600" width="850" x="270" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="public" parent="1" style="swimlane;html=1;startSize=34;rounded=1;arcSize=8;strokeWidth=2;strokeColor=#2E7D32;fillColor=#EAF7EC;fontColor=#1B5E20;fontSize=15;fontStyle=1;horizontal=1;" value="PUBLIC SUBNET  |  10.0.1.0/24" vertex="1">
+          <mxGeometry height="175" width="690" x="350" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="private" parent="1" style="swimlane;html=1;startSize=34;rounded=1;arcSize=8;strokeWidth=2;strokeColor=#1565C0;fillColor=#EAF3FE;fontColor=#0D47A1;fontSize=15;fontStyle=1;horizontal=1;" value="PRIVATE SUBNET  |  10.0.2.0/24" vertex="1">
+          <mxGeometry height="190" width="690" x="350" y="465" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
